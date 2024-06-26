@@ -13,8 +13,8 @@ import pendulum
 url = 'https://data.cdc.gov/resource/ezab-8sq5.json'
 
 # Define the tasks
-def extract_task(api_url):
-        re = requests.get(api_url)
+def extract_task(url):
+        re = requests.get(url)
         json_data = re.json()
         return json_data
 
