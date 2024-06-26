@@ -13,7 +13,7 @@ import pendulum
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 # url = 'https://data.cdc.gov/resource/ezab-8sq5.json'
 # url = 'http://api.census.gov/data/timeseries/poverty/histpov2'
-url = 'https://api.census.gov/data/timeseries/poverty/histpov2?get=United States,2022&for=us:*&time=2022&key=9ee34b3a8cc8c17f2087157f0359df008602fc61'
+url = 'https://api.census.gov/data/timeseries/poverty/histpov2?get=FEMHHPOV,2022&for=us:*&time=2022&key=9ee34b3a8cc8c17f2087157f0359df008602fc61'
 csv_path = '/Users/jbshome/Desktop/airflow_docker/smoking_cost.csv'
 # Define the tasks
 def extract_task(url):
@@ -26,7 +26,7 @@ def extract_task(url):
                 logging.error('Failed to extract data')
                 return None
 
-extracted_data = extract_task('https://api.census.gov/data/timeseries/poverty/histpov2?get=United States,2022&for=us:*&time=2022&key=9ee34b3a8cc8c17f2087157f0359df008602fc61')
+extracted_data = extract_task('https://api.census.gov/data/timeseries/poverty/histpov2?get=FEMHHPOV,2022&for=us:*&time=2022&key=9ee34b3a8cc8c17f2087157f0359df008602fc61')
 # print(data)
 
 def transform_task(data):
@@ -73,7 +73,7 @@ with DAG("etl_pipeline_smoking_cost", start_date=datetime(2024, 1, 1),
         extract_task_01 = PythonOperator(
                 task_id="extract_task_01",
                 python_callable=extract_task,
-                op_kwargs={'url':'https://api.census.gov/data/timeseries/poverty/histpov2?get=United States,2022&for=us:*&time=2022&key=9ee34b3a8cc8c17f2087157f0359df008602fc61'}
+                op_kwargs={'url':'https://api.census.gov/data/timeseries/poverty/histpov2?get=FEMHHPOV,2022&for=us:*&time=2022&key=9ee34b3a8cc8c17f2087157f0359df008602fc61'}
         )
 
         transform_task_01 = PythonOperator(
