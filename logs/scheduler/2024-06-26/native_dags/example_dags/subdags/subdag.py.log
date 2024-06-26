@@ -691,3 +691,150 @@
 [2024-06-26 06:43:24,000] {logging_mixin.py:104} INFO - [2024-06-26 06:43:24,000] {dagbag.py:451} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
 [2024-06-26 06:43:24,447] {scheduler_job.py:641} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
 [2024-06-26 06:43:27,757] {scheduler_job.py:190} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py took 4.529 seconds
+[2024-06-26 06:45:25,144] {scheduler_job.py:182} INFO - Started process (PID=893) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-06-26 06:45:25,172] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-06-26 06:45:25,183] {logging_mixin.py:104} INFO - [2024-06-26 06:45:25,183] {dagbag.py:451} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-06-26 06:45:25,608] {scheduler_job.py:641} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-06-26 06:45:26,174] {scheduler_job.py:190} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py took 1.123 seconds
+[2024-06-26 06:45:56,411] {scheduler_job.py:182} INFO - Started process (PID=921) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-06-26 06:45:56,416] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-06-26 06:45:56,421] {logging_mixin.py:104} INFO - [2024-06-26 06:45:56,420] {dagbag.py:451} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-06-26 06:45:56,438] {scheduler_job.py:641} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-06-26 06:45:56,532] {scheduler_job.py:190} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py took 0.132 seconds
+[2024-06-26 06:46:27,449] {scheduler_job.py:182} INFO - Started process (PID=949) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-06-26 06:46:27,458] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-06-26 06:46:27,469] {logging_mixin.py:104} INFO - [2024-06-26 06:46:27,469] {dagbag.py:451} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-06-26 06:46:27,575] {scheduler_job.py:641} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-06-26 06:46:27,753] {scheduler_job.py:190} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py took 0.360 seconds
+[2024-06-26 06:48:22,409] {scheduler_job.py:182} INFO - Started process (PID=973) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-06-26 06:48:22,429] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-06-26 06:48:22,445] {logging_mixin.py:104} INFO - [2024-06-26 06:48:22,443] {dagbag.py:451} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-06-26 06:48:22,477] {scheduler_job.py:641} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-06-26 06:48:23,278] {scheduler_job.py:190} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py took 0.885 seconds
+[2024-06-26 06:48:53,794] {scheduler_job.py:182} INFO - Started process (PID=1001) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-06-26 06:48:53,800] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-06-26 06:48:53,802] {logging_mixin.py:104} INFO - [2024-06-26 06:48:53,802] {dagbag.py:451} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-06-26 06:48:53,818] {scheduler_job.py:641} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-06-26 06:48:53,887] {scheduler_job.py:190} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py took 0.102 seconds
+[2024-06-26 06:50:44,641] {scheduler_job.py:182} INFO - Started process (PID=1014) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-06-26 06:50:44,708] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-06-26 06:50:44,724] {logging_mixin.py:104} INFO - [2024-06-26 06:50:44,724] {dagbag.py:451} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-06-26 06:50:44,750] {scheduler_job.py:641} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-06-26 06:50:45,161] {scheduler_job.py:190} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py took 0.546 seconds
+[2024-06-26 06:51:15,620] {scheduler_job.py:182} INFO - Started process (PID=1042) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-06-26 06:51:15,628] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-06-26 06:51:15,631] {logging_mixin.py:104} INFO - [2024-06-26 06:51:15,631] {dagbag.py:451} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-06-26 06:51:15,753] {scheduler_job.py:641} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-06-26 06:51:28,556] {scheduler_job.py:193} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/pool/impl.py", line 140, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/pool/impl.py", line 137, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.6/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/jobs/scheduler_job.py", line 187, in _run_file_processor
+    callback_requests=callback_requests,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/jobs/scheduler_job.py", line 642, in process_file
+    self.update_import_errors(session, dagbag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/jobs/scheduler_job.py", line 533, in update_import_errors
+    session.query(errors.ImportError).filter(errors.ImportError.filename == dagbag_file).delete()
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3926, in delete
+    delete_op.exec_()
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/persistence.py", line 1697, in exec_
+    self._do_exec()
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/persistence.py", line 1930, in _do_exec
+    self._execute_stmt(delete_stmt)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/persistence.py", line 1702, in _execute_stmt
+    self.result = self.query._execute_crud(stmt, self.mapper)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3565, in _execute_crud
+    mapper=mapper, clause=stmt, close_with_result=True
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3550, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 1145, in connection
+    execution_options=execution_options,
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 1151, in _connection_for_bind
+    engine, execution_options
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 433, in _connection_for_bind
+    conn = bind._contextual_connect()
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 2302, in _contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 2340, in _wrap_pool_connect
+    e, dialect, self
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1584, in _handle_dbapi_exception_noconnection
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 2336, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/pool/base.py", line 364, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/pool/base.py", line 778, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/pool/base.py", line 495, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/pool/impl.py", line 140, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/pool/impl.py", line 137, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/pool/base.py", line 309, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/pool/base.py", line 440, in __init__
+    self.__connect(first_connect_check=True)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/pool/base.py", line 656, in __connect
+    connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/strategies.py", line 114, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 508, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.6/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: http://sqlalche.me/e/13/e3q8)

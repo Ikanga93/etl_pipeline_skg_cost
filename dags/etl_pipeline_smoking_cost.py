@@ -39,7 +39,7 @@ with DAG("etl_pipeline_smoking_cost", start_date=datetime(2024, 1, 1),
         transform_task_01 = PythonOperator(
                 task_id="transform_task_01",
                 python_callable=transform_task,
-                op_args=['{{ task_instance.xcom-pull(task_ids="extract_task) }}']
+                op_args=['{{ task_instance.xcom-pull(task_ids="extract_task") }}']
         )
 
         load_task_01 = PythonOperator(
