@@ -18,10 +18,15 @@ def extract_task(url):
         json_data = re.json()
         return json_data
 
+data = extract_task('https://data.cdc.gov/resource/ezab-8sq5.json')
+
 def transform_task(data):
         # Convert the json_data to a pandas dataframe
         df = pd.DataFrame(data)
+        # print(df)
         return df
+
+print(transform_task(data))
 
 def load_task(data):
         pass
@@ -39,13 +44,13 @@ with DAG("etl_pipeline_smoking_cost", start_date=datetime(2024, 1, 1),
         transform_task_01 = PythonOperator(
                 task_id="transform_task_01",
                 python_callable=transform_task,
-                op_args=['{{ task_instance.xcom_pull(task_ids="extract_task") }}']
+                op_args=['{{ task_instance.xcom_pull(task_ids="extract_task_01") }}']
         )
 
         load_task_01 = PythonOperator(
                 task_id="load_task_01",
                 python_callable=load_task,
-                op_args=['{{ task_instance.xcom_pull(task_ids="transform_task") }}']
+                op_args=['{{ task_instance.xcom_pull(task_ids="transform_task_01") }}']
         )
 
         extract_task_01 >> transform_task_01 >> load_task_01

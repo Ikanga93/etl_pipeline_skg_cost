@@ -1666,3 +1666,330 @@ airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/da
 [2024-06-26 06:56:35,120] {logging_mixin.py:104} INFO - [2024-06-26 06:56:35,120] {dag.py:1824} INFO - Sync 1 DAGs
 [2024-06-26 06:56:35,275] {logging_mixin.py:104} INFO - [2024-06-26 06:56:35,275] {dag.py:2280} INFO - Setting next_dagrun for etl_pipeline_smoking_cost to 2024-06-26 00:00:00+00:00
 [2024-06-26 06:56:35,355] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 6.030 seconds
+[2024-06-26 06:57:05,649] {scheduler_job.py:182} INFO - Started process (PID=1207) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:57:05,656] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 06:57:05,661] {logging_mixin.py:104} INFO - [2024-06-26 06:57:05,661] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:57:09,089] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_pipeline_smoking_cost']) retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:57:09,325] {logging_mixin.py:104} INFO - [2024-06-26 06:57:09,325] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-06-26 06:57:09,452] {logging_mixin.py:104} INFO - [2024-06-26 06:57:09,452] {dag.py:2280} INFO - Setting next_dagrun for etl_pipeline_smoking_cost to 2024-06-26 00:00:00+00:00
+[2024-06-26 06:57:09,491] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 3.848 seconds
+[2024-06-26 06:58:54,763] {scheduler_job.py:182} INFO - Started process (PID=1224) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:58:54,830] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 06:58:54,837] {logging_mixin.py:104} INFO - [2024-06-26 06:58:54,837] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:58:59,781] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_pipeline_smoking_cost']) retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:58:59,913] {logging_mixin.py:104} INFO - [2024-06-26 06:58:59,913] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-06-26 06:59:00,196] {logging_mixin.py:104} INFO - [2024-06-26 06:59:00,196] {dag.py:2280} INFO - Setting next_dagrun for etl_pipeline_smoking_cost to 2024-06-26 00:00:00+00:00
+[2024-06-26 06:59:00,297] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 5.561 seconds
+[2024-06-26 07:00:19,250] {scheduler_job.py:182} INFO - Started process (PID=1255) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:00:19,289] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 07:00:19,300] {logging_mixin.py:104} INFO - [2024-06-26 07:00:19,300] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:00:30,877] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_pipeline_smoking_cost']) retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:00:31,086] {logging_mixin.py:104} INFO - [2024-06-26 07:00:31,085] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-06-26 07:00:31,384] {logging_mixin.py:104} INFO - [2024-06-26 07:00:31,384] {dag.py:2280} INFO - Setting next_dagrun for etl_pipeline_smoking_cost to 2024-06-26 00:00:00+00:00
+[2024-06-26 07:00:31,697] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 12.553 seconds
+[2024-06-26 07:01:02,189] {scheduler_job.py:182} INFO - Started process (PID=1289) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:01:02,201] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 07:01:02,206] {logging_mixin.py:104} INFO - [2024-06-26 07:01:02,206] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:01:04,748] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_pipeline_smoking_cost']) retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:01:04,806] {logging_mixin.py:104} INFO - [2024-06-26 07:01:04,805] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-06-26 07:01:05,014] {logging_mixin.py:104} INFO - [2024-06-26 07:01:05,012] {dag.py:2280} INFO - Setting next_dagrun for etl_pipeline_smoking_cost to 2024-06-26 00:00:00+00:00
+[2024-06-26 07:01:05,148] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 2.992 seconds
+[2024-06-26 07:02:01,388] {scheduler_job.py:182} INFO - Started process (PID=1315) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:02:01,395] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 07:02:01,464] {logging_mixin.py:104} INFO - [2024-06-26 07:02:01,463] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:02:13,821] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_pipeline_smoking_cost']) retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:02:18,905] {logging_mixin.py:104} INFO - [2024-06-26 07:02:18,905] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-06-26 07:02:19,368] {logging_mixin.py:104} INFO - [2024-06-26 07:02:19,368] {dag.py:2280} INFO - Setting next_dagrun for etl_pipeline_smoking_cost to 2024-06-26 00:00:00+00:00
+[2024-06-26 07:02:19,790] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 18.459 seconds
+[2024-06-26 07:02:50,710] {scheduler_job.py:182} INFO - Started process (PID=1349) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:02:50,722] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 07:02:50,724] {logging_mixin.py:104} INFO - [2024-06-26 07:02:50,724] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:03:00,035] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_pipeline_smoking_cost']) retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:03:00,192] {logging_mixin.py:104} INFO - [2024-06-26 07:03:00,192] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-06-26 07:03:00,455] {logging_mixin.py:104} INFO - [2024-06-26 07:03:00,455] {dag.py:2280} INFO - Setting next_dagrun for etl_pipeline_smoking_cost to 2024-06-26 00:00:00+00:00
+[2024-06-26 07:03:00,497] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 9.811 seconds
+[2024-06-26 07:03:31,098] {scheduler_job.py:182} INFO - Started process (PID=1382) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:03:31,105] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 07:03:31,125] {logging_mixin.py:104} INFO - [2024-06-26 07:03:31,125] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:04:04,750] {logging_mixin.py:104} INFO - [2024-06-26 07:04:02,208] {timeout.py:36} ERROR - Process timed out, PID: 1382
+[2024-06-26 07:04:22,488] {logging_mixin.py:104} INFO - [2024-06-26 07:04:19,390] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/etl_pipeline_smoking_cost.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_pipeline_smoking_cost.py", line 9, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/__init__.py", line 52, in <module>
+    from pandas.core.api import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/api.py", line 29, in <module>
+    from pandas.core.groupby import Grouper, NamedAgg
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/groupby/__init__.py", line 1, in <module>
+    from pandas.core.groupby.generic import DataFrameGroupBy, NamedAgg, SeriesGroupBy
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/groupby/generic.py", line 69, in <module>
+    from pandas.core.groupby.groupby import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/groupby/groupby.py", line 64, in <module>
+    from pandas.core.groupby import base, ops
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 779, in get_code
+  File "<frozen importlib._bootstrap_external>", line 487, in _compile_bytecode
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/etl_pipeline_smoking_cost.py after 30.0s, PID: 1382
+[2024-06-26 07:04:22,676] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:04:25,590] {scheduler_job.py:182} INFO - Started process (PID=1390) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:04:25,596] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 07:04:25,598] {logging_mixin.py:104} INFO - [2024-06-26 07:04:25,598] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:04:29,256] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_pipeline_smoking_cost']) retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:04:29,390] {logging_mixin.py:104} INFO - [2024-06-26 07:04:29,390] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-06-26 07:04:29,492] {logging_mixin.py:104} INFO - [2024-06-26 07:04:29,492] {dag.py:2280} INFO - Setting next_dagrun for etl_pipeline_smoking_cost to 2024-06-26 00:00:00+00:00
+[2024-06-26 07:04:29,578] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 3.999 seconds
+[2024-06-26 07:05:00,467] {scheduler_job.py:182} INFO - Started process (PID=1423) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:05:00,509] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 07:05:00,533] {logging_mixin.py:104} INFO - [2024-06-26 07:05:00,533] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:05:52,882] {logging_mixin.py:104} INFO - [2024-06-26 07:05:38,594] {timeout.py:36} ERROR - Process timed out, PID: 1423
+[2024-06-26 07:07:15,169] {logging_mixin.py:104} INFO - [2024-06-26 07:05:57,133] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/etl_pipeline_smoking_cost.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_pipeline_smoking_cost.py", line 9, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/__init__.py", line 142, in <module>
+    from pandas.io.api import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/api.py", line 17, in <module>
+    from pandas.io.pytables import HDFStore, read_hdf
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/pytables.py", line 450, in <module>
+    class HDFStore:
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/pytables.py", line 1484, in HDFStore
+    def get_node(self, key: str) -> Optional["Node"]:
+  File "/usr/local/lib/python3.6/typing.py", line 679, in inner
+    return cached(*args, **kwds)
+  File "/usr/local/lib/python3.6/typing.py", line 846, in __getitem__
+    return Union[arg, type(None)]
+  File "/usr/local/lib/python3.6/typing.py", line 679, in inner
+    return cached(*args, **kwds)
+  File "/usr/local/lib/python3.6/typing.py", line 803, in __getitem__
+    return self.__class__(parameters, origin=self, _root=True)
+  File "/usr/local/lib/python3.6/typing.py", line 743, in __new__
+    parameters = _remove_dups_flatten(parameters)
+  File "/usr/local/lib/python3.6/typing.py", line 644, in _remove_dups_flatten
+    if not isinstance(t1, type):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/etl_pipeline_smoking_cost.py after 30.0s, PID: 1423
+[2024-06-26 07:07:15,543] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:07:22,307] {scheduler_job.py:182} INFO - Started process (PID=1434) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:07:22,339] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 07:07:22,349] {logging_mixin.py:104} INFO - [2024-06-26 07:07:22,349] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:07:30,407] {logging_mixin.py:104} INFO - [2024-06-26 07:07:30,394] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/etl_pipeline_smoking_cost.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_pipeline_smoking_cost.py", line 21, in <module>
+    data = json_data()
+NameError: name 'json' is not defined
+[2024-06-26 07:07:30,425] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:07:30,514] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 8.269 seconds
+[2024-06-26 07:09:30,068] {scheduler_job.py:182} INFO - Started process (PID=1466) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:09:30,104] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 07:09:30,135] {logging_mixin.py:104} INFO - [2024-06-26 07:09:30,134] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:09:40,793] {logging_mixin.py:104} INFO -      year locationabbr   locationdesc  ... measure_id submeasureid displayorder
+0    2009           RI   Rhode Island  ...     520SAE       SAE006           06
+1    2007           SD   South Dakota  ...     520SAE       SAE005           05
+2    2009           NH  New Hampshire  ...     520SAE       SAE006           06
+3    2006           MD       Maryland  ...     520SAE       SAE004           04
+4    2009           LA      Louisiana  ...     520SAE       SAE006           06
+..    ...          ...            ...  ...        ...          ...          ...
+995  2007           CT    Connecticut  ...     520SAE       SAE004           04
+996  2005           PA   Pennsylvania  ...     520SAE       SAE002           02
+997  2005           MI       Michigan  ...     520SAE       SAE002           02
+998  2009           TN      Tennessee  ...     520SAE       SAE004           04
+999  2006           KY       Kentucky  ...     520SAE       SAE006           06
+
+[1000 rows x 19 columns]
+[2024-06-26 07:09:41,324] {logging_mixin.py:104} INFO -      year locationabbr   locationdesc  ... measure_id submeasureid displayorder
+0    2009           RI   Rhode Island  ...     520SAE       SAE006           06
+1    2007           SD   South Dakota  ...     520SAE       SAE005           05
+2    2009           NH  New Hampshire  ...     520SAE       SAE006           06
+3    2006           MD       Maryland  ...     520SAE       SAE004           04
+4    2009           LA      Louisiana  ...     520SAE       SAE006           06
+..    ...          ...            ...  ...        ...          ...          ...
+995  2007           CT    Connecticut  ...     520SAE       SAE004           04
+996  2005           PA   Pennsylvania  ...     520SAE       SAE002           02
+997  2005           MI       Michigan  ...     520SAE       SAE002           02
+998  2009           TN      Tennessee  ...     520SAE       SAE004           04
+999  2006           KY       Kentucky  ...     520SAE       SAE006           06
+
+[1000 rows x 19 columns]
+[2024-06-26 07:09:41,353] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_pipeline_smoking_cost']) retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:09:41,775] {logging_mixin.py:104} INFO - [2024-06-26 07:09:41,775] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-06-26 07:09:42,442] {logging_mixin.py:104} INFO - [2024-06-26 07:09:42,441] {dag.py:2280} INFO - Setting next_dagrun for etl_pipeline_smoking_cost to 2024-06-26 00:00:00+00:00
+[2024-06-26 07:09:42,723] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 12.714 seconds
+[2024-06-26 07:11:27,959] {scheduler_job.py:182} INFO - Started process (PID=1497) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:11:27,966] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 07:11:27,971] {logging_mixin.py:104} INFO - [2024-06-26 07:11:27,970] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:11:40,404] {logging_mixin.py:104} INFO -      year locationabbr   locationdesc  ... measure_id submeasureid displayorder
+0    2009           RI   Rhode Island  ...     520SAE       SAE006           06
+1    2007           SD   South Dakota  ...     520SAE       SAE005           05
+2    2009           NH  New Hampshire  ...     520SAE       SAE006           06
+3    2006           MD       Maryland  ...     520SAE       SAE004           04
+4    2009           LA      Louisiana  ...     520SAE       SAE006           06
+..    ...          ...            ...  ...        ...          ...          ...
+995  2007           CT    Connecticut  ...     520SAE       SAE004           04
+996  2005           PA   Pennsylvania  ...     520SAE       SAE002           02
+997  2005           MI       Michigan  ...     520SAE       SAE002           02
+998  2009           TN      Tennessee  ...     520SAE       SAE004           04
+999  2006           KY       Kentucky  ...     520SAE       SAE006           06
+
+[1000 rows x 19 columns]
+[2024-06-26 07:11:40,648] {logging_mixin.py:104} INFO -      year locationabbr   locationdesc  ... measure_id submeasureid displayorder
+0    2009           RI   Rhode Island  ...     520SAE       SAE006           06
+1    2007           SD   South Dakota  ...     520SAE       SAE005           05
+2    2009           NH  New Hampshire  ...     520SAE       SAE006           06
+3    2006           MD       Maryland  ...     520SAE       SAE004           04
+4    2009           LA      Louisiana  ...     520SAE       SAE006           06
+..    ...          ...            ...  ...        ...          ...          ...
+995  2007           CT    Connecticut  ...     520SAE       SAE004           04
+996  2005           PA   Pennsylvania  ...     520SAE       SAE002           02
+997  2005           MI       Michigan  ...     520SAE       SAE002           02
+998  2009           TN      Tennessee  ...     520SAE       SAE004           04
+999  2006           KY       Kentucky  ...     520SAE       SAE006           06
+
+[1000 rows x 19 columns]
+[2024-06-26 07:11:40,761] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_pipeline_smoking_cost']) retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:11:40,956] {logging_mixin.py:104} INFO - [2024-06-26 07:11:40,955] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-06-26 07:11:41,086] {logging_mixin.py:104} INFO - [2024-06-26 07:11:41,086] {dag.py:2280} INFO - Setting next_dagrun for etl_pipeline_smoking_cost to 2024-06-26 00:00:00+00:00
+[2024-06-26 07:11:41,278] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 13.331 seconds
+[2024-06-26 07:12:11,936] {scheduler_job.py:182} INFO - Started process (PID=1536) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:12:12,027] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 07:12:12,043] {logging_mixin.py:104} INFO - [2024-06-26 07:12:12,042] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:12:18,754] {logging_mixin.py:104} INFO -      year locationabbr   locationdesc  ... measure_id submeasureid displayorder
+0    2009           RI   Rhode Island  ...     520SAE       SAE006           06
+1    2007           SD   South Dakota  ...     520SAE       SAE005           05
+2    2009           NH  New Hampshire  ...     520SAE       SAE006           06
+3    2006           MD       Maryland  ...     520SAE       SAE004           04
+4    2009           LA      Louisiana  ...     520SAE       SAE006           06
+..    ...          ...            ...  ...        ...          ...          ...
+995  2007           CT    Connecticut  ...     520SAE       SAE004           04
+996  2005           PA   Pennsylvania  ...     520SAE       SAE002           02
+997  2005           MI       Michigan  ...     520SAE       SAE002           02
+998  2009           TN      Tennessee  ...     520SAE       SAE004           04
+999  2006           KY       Kentucky  ...     520SAE       SAE006           06
+
+[1000 rows x 19 columns]
+[2024-06-26 07:12:18,992] {logging_mixin.py:104} INFO -      year locationabbr   locationdesc  ... measure_id submeasureid displayorder
+0    2009           RI   Rhode Island  ...     520SAE       SAE006           06
+1    2007           SD   South Dakota  ...     520SAE       SAE005           05
+2    2009           NH  New Hampshire  ...     520SAE       SAE006           06
+3    2006           MD       Maryland  ...     520SAE       SAE004           04
+4    2009           LA      Louisiana  ...     520SAE       SAE006           06
+..    ...          ...            ...  ...        ...          ...          ...
+995  2007           CT    Connecticut  ...     520SAE       SAE004           04
+996  2005           PA   Pennsylvania  ...     520SAE       SAE002           02
+997  2005           MI       Michigan  ...     520SAE       SAE002           02
+998  2009           TN      Tennessee  ...     520SAE       SAE004           04
+999  2006           KY       Kentucky  ...     520SAE       SAE006           06
+
+[1000 rows x 19 columns]
+[2024-06-26 07:12:19,019] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_pipeline_smoking_cost']) retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:12:19,087] {logging_mixin.py:104} INFO - [2024-06-26 07:12:19,087] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-06-26 07:12:19,162] {logging_mixin.py:104} INFO - [2024-06-26 07:12:19,162] {dag.py:2280} INFO - Setting next_dagrun for etl_pipeline_smoking_cost to 2024-06-26 00:00:00+00:00
+[2024-06-26 07:12:19,183] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 7.298 seconds
+[2024-06-26 07:14:23,054] {scheduler_job.py:182} INFO - Started process (PID=1557) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:14:23,081] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 07:14:23,093] {logging_mixin.py:104} INFO - [2024-06-26 07:14:23,093] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:14:28,200] {logging_mixin.py:104} INFO -      year locationabbr   locationdesc  ... measure_id submeasureid displayorder
+0    2009           RI   Rhode Island  ...     520SAE       SAE006           06
+1    2007           SD   South Dakota  ...     520SAE       SAE005           05
+2    2009           NH  New Hampshire  ...     520SAE       SAE006           06
+3    2006           MD       Maryland  ...     520SAE       SAE004           04
+4    2009           LA      Louisiana  ...     520SAE       SAE006           06
+..    ...          ...            ...  ...        ...          ...          ...
+995  2007           CT    Connecticut  ...     520SAE       SAE004           04
+996  2005           PA   Pennsylvania  ...     520SAE       SAE002           02
+997  2005           MI       Michigan  ...     520SAE       SAE002           02
+998  2009           TN      Tennessee  ...     520SAE       SAE004           04
+999  2006           KY       Kentucky  ...     520SAE       SAE006           06
+
+[1000 rows x 19 columns]
+[2024-06-26 07:14:28,541] {logging_mixin.py:104} INFO -      year locationabbr   locationdesc  ... measure_id submeasureid displayorder
+0    2009           RI   Rhode Island  ...     520SAE       SAE006           06
+1    2007           SD   South Dakota  ...     520SAE       SAE005           05
+2    2009           NH  New Hampshire  ...     520SAE       SAE006           06
+3    2006           MD       Maryland  ...     520SAE       SAE004           04
+4    2009           LA      Louisiana  ...     520SAE       SAE006           06
+..    ...          ...            ...  ...        ...          ...          ...
+995  2007           CT    Connecticut  ...     520SAE       SAE004           04
+996  2005           PA   Pennsylvania  ...     520SAE       SAE002           02
+997  2005           MI       Michigan  ...     520SAE       SAE002           02
+998  2009           TN      Tennessee  ...     520SAE       SAE004           04
+999  2006           KY       Kentucky  ...     520SAE       SAE006           06
+
+[1000 rows x 19 columns]
+[2024-06-26 07:14:28,560] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_pipeline_smoking_cost']) retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:14:28,638] {logging_mixin.py:104} INFO - [2024-06-26 07:14:28,638] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-06-26 07:14:28,717] {logging_mixin.py:104} INFO - [2024-06-26 07:14:28,716] {dag.py:2280} INFO - Setting next_dagrun for etl_pipeline_smoking_cost to 2024-06-26 00:00:00+00:00
+[2024-06-26 07:14:28,751] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 5.716 seconds
+[2024-06-26 07:15:18,195] {scheduler_job.py:182} INFO - Started process (PID=1585) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:15:18,257] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 07:15:18,275] {logging_mixin.py:104} INFO - [2024-06-26 07:15:18,273] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:15:27,831] {logging_mixin.py:104} INFO -      year locationabbr   locationdesc  ... measure_id submeasureid displayorder
+0    2009           RI   Rhode Island  ...     520SAE       SAE006           06
+1    2007           SD   South Dakota  ...     520SAE       SAE005           05
+2    2009           NH  New Hampshire  ...     520SAE       SAE006           06
+3    2006           MD       Maryland  ...     520SAE       SAE004           04
+4    2009           LA      Louisiana  ...     520SAE       SAE006           06
+..    ...          ...            ...  ...        ...          ...          ...
+995  2007           CT    Connecticut  ...     520SAE       SAE004           04
+996  2005           PA   Pennsylvania  ...     520SAE       SAE002           02
+997  2005           MI       Michigan  ...     520SAE       SAE002           02
+998  2009           TN      Tennessee  ...     520SAE       SAE004           04
+999  2006           KY       Kentucky  ...     520SAE       SAE006           06
+
+[1000 rows x 19 columns]
+[2024-06-26 07:15:28,363] {logging_mixin.py:104} INFO -      year locationabbr   locationdesc  ... measure_id submeasureid displayorder
+0    2009           RI   Rhode Island  ...     520SAE       SAE006           06
+1    2007           SD   South Dakota  ...     520SAE       SAE005           05
+2    2009           NH  New Hampshire  ...     520SAE       SAE006           06
+3    2006           MD       Maryland  ...     520SAE       SAE004           04
+4    2009           LA      Louisiana  ...     520SAE       SAE006           06
+..    ...          ...            ...  ...        ...          ...          ...
+995  2007           CT    Connecticut  ...     520SAE       SAE004           04
+996  2005           PA   Pennsylvania  ...     520SAE       SAE002           02
+997  2005           MI       Michigan  ...     520SAE       SAE002           02
+998  2009           TN      Tennessee  ...     520SAE       SAE004           04
+999  2006           KY       Kentucky  ...     520SAE       SAE006           06
+
+[1000 rows x 19 columns]
+[2024-06-26 07:15:28,452] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_pipeline_smoking_cost']) retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:15:28,718] {logging_mixin.py:104} INFO - [2024-06-26 07:15:28,718] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-06-26 07:15:28,941] {logging_mixin.py:104} INFO - [2024-06-26 07:15:28,939] {dag.py:2280} INFO - Setting next_dagrun for etl_pipeline_smoking_cost to 2024-06-26 00:00:00+00:00
+[2024-06-26 07:15:29,055] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 10.877 seconds
+[2024-06-26 07:15:59,682] {scheduler_job.py:182} INFO - Started process (PID=1621) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:15:59,698] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 07:15:59,713] {logging_mixin.py:104} INFO - [2024-06-26 07:15:59,713] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:16:04,761] {logging_mixin.py:104} INFO -      year locationabbr   locationdesc  ... measure_id submeasureid displayorder
+0    2009           RI   Rhode Island  ...     520SAE       SAE006           06
+1    2007           SD   South Dakota  ...     520SAE       SAE005           05
+2    2009           NH  New Hampshire  ...     520SAE       SAE006           06
+3    2006           MD       Maryland  ...     520SAE       SAE004           04
+4    2009           LA      Louisiana  ...     520SAE       SAE006           06
+..    ...          ...            ...  ...        ...          ...          ...
+995  2007           CT    Connecticut  ...     520SAE       SAE004           04
+996  2005           PA   Pennsylvania  ...     520SAE       SAE002           02
+997  2005           MI       Michigan  ...     520SAE       SAE002           02
+998  2009           TN      Tennessee  ...     520SAE       SAE004           04
+999  2006           KY       Kentucky  ...     520SAE       SAE006           06
+
+[1000 rows x 19 columns]
+[2024-06-26 07:16:04,788] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_pipeline_smoking_cost']) retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:16:04,854] {logging_mixin.py:104} INFO - [2024-06-26 07:16:04,854] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-06-26 07:16:04,932] {logging_mixin.py:104} INFO - [2024-06-26 07:16:04,929] {dag.py:2280} INFO - Setting next_dagrun for etl_pipeline_smoking_cost to 2024-06-26 00:00:00+00:00
+[2024-06-26 07:16:04,979] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 5.350 seconds
