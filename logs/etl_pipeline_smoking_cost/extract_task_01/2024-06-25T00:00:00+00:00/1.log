@@ -1,0 +1,33 @@
+[2024-06-26 00:30:23,803] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: etl_pipeline_smoking_cost.extract_task_01 2024-06-25T00:00:00+00:00 [queued]>
+[2024-06-26 00:30:23,940] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: etl_pipeline_smoking_cost.extract_task_01 2024-06-25T00:00:00+00:00 [queued]>
+[2024-06-26 00:30:23,951] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-26 00:30:23,954] {taskinstance.py:1069} INFO - Starting attempt 1 of 1
+[2024-06-26 00:30:23,956] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-26 00:30:24,012] {taskinstance.py:1089} INFO - Executing <Task(PythonOperator): extract_task_01> on 2024-06-25T00:00:00+00:00
+[2024-06-26 00:30:24,058] {standard_task_runner.py:52} INFO - Started process 46 to run task
+[2024-06-26 00:30:24,124] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'etl_pipeline_smoking_cost', 'extract_task_01', '2024-06-25T00:00:00+00:00', '--job-id', '82', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/etl_pipeline_smoking_cost.py', '--cfg-path', '/tmp/tmpr0ixhant', '--error-file', '/tmp/tmpfv7pn0k7']
+[2024-06-26 00:30:24,148] {standard_task_runner.py:77} INFO - Job 82: Subtask extract_task_01
+[2024-06-26 00:30:25,012] {logging_mixin.py:104} INFO - Running <TaskInstance: etl_pipeline_smoking_cost.extract_task_01 2024-06-25T00:00:00+00:00 [running]> on host 471e920996d3
+[2024-06-26 00:30:25,571] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=etl_pipeline_smoking_cost
+AIRFLOW_CTX_TASK_ID=extract_task_01
+AIRFLOW_CTX_EXECUTION_DATE=2024-06-25T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-06-25T00:00:00+00:00
+[2024-06-26 00:30:25,602] {taskinstance.py:1482} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1138, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 117, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 128, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+TypeError: extract_task() missing 1 required positional argument: 'url'
+[2024-06-26 00:30:25,637] {taskinstance.py:1532} INFO - Marking task as FAILED. dag_id=etl_pipeline_smoking_cost, task_id=extract_task_01, execution_date=20240625T000000, start_date=20240626T003023, end_date=20240626T003025
+[2024-06-26 00:30:25,865] {local_task_job.py:146} INFO - Task exited with return code 1
