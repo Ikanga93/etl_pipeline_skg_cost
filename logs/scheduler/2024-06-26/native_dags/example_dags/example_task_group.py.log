@@ -1129,3 +1129,23 @@
 [2024-06-26 07:39:53,534] {logging_mixin.py:104} INFO - [2024-06-26 07:39:53,533] {dag.py:1824} INFO - Sync 1 DAGs
 [2024-06-26 07:39:53,633] {logging_mixin.py:104} INFO - [2024-06-26 07:39:53,633] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2024-06-24 00:00:00+00:00
 [2024-06-26 07:39:53,717] {scheduler_job.py:190} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py took 0.446 seconds
+[2024-06-26 07:40:52,803] {scheduler_job.py:182} INFO - Started process (PID=2167) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py
+[2024-06-26 07:40:52,849] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-06-26 07:40:52,875] {logging_mixin.py:104} INFO - [2024-06-26 07:40:52,875] {dagbag.py:451} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py
+[2024-06-26 07:40:52,925] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py
+[2024-06-26 07:40:53,102] {logging_mixin.py:104} INFO - [2024-06-26 07:40:53,102] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-06-26 07:40:53,167] {logging_mixin.py:104} INFO - [2024-06-26 07:40:53,167] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2024-06-24 00:00:00+00:00
+[2024-06-26 07:40:53,270] {scheduler_job.py:190} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py took 0.495 seconds
+[2024-06-26 07:41:23,719] {scheduler_job.py:182} INFO - Started process (PID=2194) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py
+[2024-06-26 07:41:23,776] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-06-26 07:41:23,780] {logging_mixin.py:104} INFO - [2024-06-26 07:41:23,780] {dagbag.py:451} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py
+[2024-06-26 07:41:23,915] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py
+[2024-06-26 07:41:24,077] {logging_mixin.py:104} INFO - [2024-06-26 07:41:24,076] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-06-26 07:41:24,129] {logging_mixin.py:104} INFO - [2024-06-26 07:41:24,129] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2024-06-24 00:00:00+00:00
+[2024-06-26 07:41:24,192] {scheduler_job.py:190} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py took 0.507 seconds
+[2024-06-26 07:42:26,527] {scheduler_job.py:182} INFO - Started process (PID=2223) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py
+[2024-06-26 07:42:26,537] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-06-26 07:42:26,542] {logging_mixin.py:104} INFO - [2024-06-26 07:42:26,542] {dagbag.py:451} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py
+[2024-06-26 07:42:26,641] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py
+[2024-06-26 07:42:28,143] {logging_mixin.py:104} INFO - [2024-06-26 07:42:28,115] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-06-26 07:42:28,878] {logging_mixin.py:104} INFO - [2024-06-26 07:42:28,866] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2024-06-24 00:00:00+00:00
