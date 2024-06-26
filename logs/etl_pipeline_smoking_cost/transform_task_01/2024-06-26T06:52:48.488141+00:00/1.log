@@ -1,0 +1,40 @@
+[2024-06-26 06:53:04,104] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: etl_pipeline_smoking_cost.transform_task_01 2024-06-26T06:52:48.488141+00:00 [queued]>
+[2024-06-26 06:53:04,257] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: etl_pipeline_smoking_cost.transform_task_01 2024-06-26T06:52:48.488141+00:00 [queued]>
+[2024-06-26 06:53:04,258] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-26 06:53:04,259] {taskinstance.py:1069} INFO - Starting attempt 1 of 1
+[2024-06-26 06:53:04,260] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2024-06-26 06:53:04,363] {taskinstance.py:1089} INFO - Executing <Task(PythonOperator): transform_task_01> on 2024-06-26T06:52:48.488141+00:00
+[2024-06-26 06:53:04,396] {standard_task_runner.py:52} INFO - Started process 57 to run task
+[2024-06-26 06:53:04,457] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'etl_pipeline_smoking_cost', 'transform_task_01', '2024-06-26T06:52:48.488141+00:00', '--job-id', '92', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/etl_pipeline_smoking_cost.py', '--cfg-path', '/tmp/tmprduk6q9b', '--error-file', '/tmp/tmpwni5osrn']
+[2024-06-26 06:53:04,462] {standard_task_runner.py:77} INFO - Job 92: Subtask transform_task_01
+[2024-06-26 06:53:04,866] {logging_mixin.py:104} INFO - Running <TaskInstance: etl_pipeline_smoking_cost.transform_task_01 2024-06-26T06:52:48.488141+00:00 [running]> on host 471e920996d3
+[2024-06-26 06:53:05,401] {taskinstance.py:1482} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1138, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1275, in _prepare_and_execute_task_with_callbacks
+    self.render_templates(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1779, in render_templates
+    self.task.render_template_fields(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 892, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 905, in _do_render_template_fields
+    rendered_content = self.render_template(content, context, jinja_env, seen_oids)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 956, in render_template
+    return [self.render_template(element, context, jinja_env) for element in content]
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 956, in <listcomp>
+    return [self.render_template(element, context, jinja_env) for element in content]
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 942, in render_template
+    return jinja_env.from_string(content).render(**context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/home/airflow/.local/lib/python3.6/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/home/airflow/.local/lib/python3.6/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 1, in top-level template code
+jinja2.exceptions.UndefinedError: 'pull' is undefined
+[2024-06-26 06:53:05,419] {taskinstance.py:1532} INFO - Marking task as FAILED. dag_id=etl_pipeline_smoking_cost, task_id=transform_task_01, execution_date=20240626T065248, start_date=20240626T065304, end_date=20240626T065305
+[2024-06-26 06:53:05,713] {local_task_job.py:146} INFO - Task exited with return code 1

@@ -977,3 +977,17 @@ sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate
 [2024-06-26 06:50:55,546] {logging_mixin.py:104} INFO - [2024-06-26 06:50:55,546] {dag.py:1824} INFO - Sync 1 DAGs
 [2024-06-26 06:50:55,644] {logging_mixin.py:104} INFO - [2024-06-26 06:50:55,644] {dag.py:2280} INFO - Setting next_dagrun for example_kubernetes_executor to None
 [2024-06-26 06:50:55,675] {scheduler_job.py:190} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.303 seconds
+[2024-06-26 06:52:12,185] {scheduler_job.py:182} INFO - Started process (PID=1059) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-06-26 06:52:12,189] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2024-06-26 06:52:12,199] {logging_mixin.py:104} INFO - [2024-06-26 06:52:12,198] {dagbag.py:451} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-06-26 06:52:12,307] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-06-26 06:52:12,540] {logging_mixin.py:104} INFO - [2024-06-26 06:52:12,539] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-06-26 06:52:12,646] {logging_mixin.py:104} INFO - [2024-06-26 06:52:12,646] {dag.py:2280} INFO - Setting next_dagrun for example_kubernetes_executor to None
+[2024-06-26 06:52:12,678] {scheduler_job.py:190} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.505 seconds
+[2024-06-26 06:52:56,720] {scheduler_job.py:182} INFO - Started process (PID=1088) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-06-26 06:52:56,743] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2024-06-26 06:52:56,748] {logging_mixin.py:104} INFO - [2024-06-26 06:52:56,748] {dagbag.py:451} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-06-26 06:52:56,834] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_kubernetes_executor']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-06-26 06:52:56,960] {logging_mixin.py:104} INFO - [2024-06-26 06:52:56,960] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-06-26 06:52:57,010] {logging_mixin.py:104} INFO - [2024-06-26 06:52:57,009] {dag.py:2280} INFO - Setting next_dagrun for example_kubernetes_executor to None
+[2024-06-26 06:52:57,041] {scheduler_job.py:190} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.426 seconds
