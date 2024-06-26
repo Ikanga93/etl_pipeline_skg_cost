@@ -2309,3 +2309,31 @@ NameError: name 'data' is not defined
 [2024-06-26 07:39:21,718] {scheduler_job.py:182} INFO - Started process (PID=2125) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
 [2024-06-26 07:39:21,725] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
 [2024-06-26 07:39:21,729] {logging_mixin.py:104} INFO - [2024-06-26 07:39:21,728] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:39:51,489] {logging_mixin.py:104} INFO - [2024-06-26 07:39:51,483] {etl_pipeline_smoking_cost.py:24} ERROR - Failed to extract data
+[2024-06-26 07:39:51,591] {logging_mixin.py:104} INFO - [2024-06-26 07:39:51,577] {etl_pipeline_smoking_cost.py:33} INFO - Data transformed successfuly
+[2024-06-26 07:39:51,719] {logging_mixin.py:104} INFO - Empty DataFrame
+Columns: []
+Index: []
+[2024-06-26 07:39:51,989] {logging_mixin.py:104} INFO - [2024-06-26 07:39:51,790] {timeout.py:36} ERROR - Process timed out, PID: 2125
+[2024-06-26 07:39:52,244] {logging_mixin.py:104} INFO - [2024-06-26 07:39:51,997] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/etl_pipeline_smoking_cost.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_pipeline_smoking_cost.py", line 58, in <module>
+    op_kwargs={'url':'https://data.cdc.gov/resource/ezab-8sq5.json'}
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 101, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 58, in wrapper
+    from airflow.models.dag import DagContext
+  File "<frozen importlib._bootstrap>", line 997, in _handle_fromlist
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/etl_pipeline_smoking_cost.py after 30.0s, PID: 2125
+[2024-06-26 07:39:52,307] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 07:39:52,978] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 31.296 seconds

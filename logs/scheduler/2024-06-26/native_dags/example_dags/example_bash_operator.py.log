@@ -1204,3 +1204,5 @@ airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/airflow/.
 [2024-06-26 07:39:30,868] {logging_mixin.py:104} INFO - [2024-06-26 07:39:30,868] {dagbag.py:451} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py
 [2024-06-26 07:39:31,544] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py
 [2024-06-26 07:39:32,587] {logging_mixin.py:104} INFO - [2024-06-26 07:39:32,583] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-06-26 07:39:52,175] {logging_mixin.py:104} INFO - [2024-06-26 07:39:52,174] {dag.py:2280} INFO - Setting next_dagrun for example_bash_operator to 2024-06-24 00:00:00+00:00
+[2024-06-26 07:39:52,503] {scheduler_job.py:190} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py took 21.751 seconds

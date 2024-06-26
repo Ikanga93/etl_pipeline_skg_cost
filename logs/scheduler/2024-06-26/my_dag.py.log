@@ -935,3 +935,8 @@ SyntaxError: invalid syntax
 [2024-06-26 07:38:35,316] {logging_mixin.py:104} INFO - [2024-06-26 07:38:35,316] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
 [2024-06-26 07:38:35,335] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
 [2024-06-26 07:38:35,381] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_dag.py took 0.091 seconds
+[2024-06-26 07:39:59,701] {scheduler_job.py:182} INFO - Started process (PID=2148) to work on /opt/airflow/dags/my_dag.py
+[2024-06-26 07:39:59,705] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-06-26 07:39:59,709] {logging_mixin.py:104} INFO - [2024-06-26 07:39:59,709] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-06-26 07:39:59,747] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-06-26 07:39:59,823] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_dag.py took 0.140 seconds
