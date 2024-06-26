@@ -1285,3 +1285,151 @@ airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/da
 [2024-06-26 02:27:39,511] {logging_mixin.py:104} INFO - [2024-06-26 02:27:39,509] {dag.py:1824} INFO - Sync 1 DAGs
 [2024-06-26 02:27:39,609] {logging_mixin.py:104} INFO - [2024-06-26 02:27:39,608] {dag.py:2280} INFO - Setting next_dagrun for etl_pipeline_smoking_cost to 2024-06-26 00:00:00+00:00
 [2024-06-26 02:27:39,658] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 1.463 seconds
+[2024-06-26 02:29:11,199] {scheduler_job.py:182} INFO - Started process (PID=506) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 02:29:11,250] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 02:29:11,262] {logging_mixin.py:104} INFO - [2024-06-26 02:29:11,262] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 02:29:30,040] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_pipeline_smoking_cost']) retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 02:29:30,222] {logging_mixin.py:104} INFO - [2024-06-26 02:29:30,222] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-06-26 02:29:30,376] {logging_mixin.py:104} INFO - [2024-06-26 02:29:30,375] {dag.py:2280} INFO - Setting next_dagrun for etl_pipeline_smoking_cost to 2024-06-26 00:00:00+00:00
+[2024-06-26 02:29:30,436] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 19.335 seconds
+[2024-06-26 02:30:00,602] {scheduler_job.py:182} INFO - Started process (PID=549) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 02:30:00,605] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 02:30:00,612] {logging_mixin.py:104} INFO - [2024-06-26 02:30:00,611] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 02:30:03,138] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_pipeline_smoking_cost']) retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 02:30:03,206] {logging_mixin.py:104} INFO - [2024-06-26 02:30:03,202] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-06-26 02:30:03,302] {logging_mixin.py:104} INFO - [2024-06-26 02:30:03,302] {dag.py:2280} INFO - Setting next_dagrun for etl_pipeline_smoking_cost to 2024-06-26 00:00:00+00:00
+[2024-06-26 02:30:03,336] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 2.740 seconds
+[2024-06-26 04:30:04,524] {scheduler_job.py:182} INFO - Started process (PID=576) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 04:30:04,534] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 04:30:04,547] {logging_mixin.py:104} INFO - [2024-06-26 04:30:04,545] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 04:30:08,050] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_pipeline_smoking_cost']) retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 04:30:08,202] {logging_mixin.py:104} INFO - [2024-06-26 04:30:08,202] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-06-26 04:30:08,320] {logging_mixin.py:104} INFO - [2024-06-26 04:30:08,320] {dag.py:2280} INFO - Setting next_dagrun for etl_pipeline_smoking_cost to 2024-06-26 00:00:00+00:00
+[2024-06-26 04:30:08,362] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 3.856 seconds
+[2024-06-26 04:36:06,578] {scheduler_job.py:182} INFO - Started process (PID=607) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 04:36:06,583] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 04:36:06,585] {logging_mixin.py:104} INFO - [2024-06-26 04:36:06,585] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 04:36:09,716] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_pipeline_smoking_cost']) retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 04:36:10,808] {logging_mixin.py:104} INFO - [2024-06-26 04:36:10,808] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-06-26 04:36:10,884] {logging_mixin.py:104} INFO - [2024-06-26 04:36:10,883] {dag.py:2280} INFO - Setting next_dagrun for etl_pipeline_smoking_cost to 2024-06-26 00:00:00+00:00
+[2024-06-26 04:36:10,902] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 4.336 seconds
+[2024-06-26 06:37:28,652] {scheduler_job.py:182} INFO - Started process (PID=635) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:37:28,661] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 06:37:28,682] {logging_mixin.py:104} INFO - [2024-06-26 06:37:28,681] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:37:32,088] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_pipeline_smoking_cost']) retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:37:32,341] {logging_mixin.py:104} INFO - [2024-06-26 06:37:32,341] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-06-26 06:37:32,677] {logging_mixin.py:104} INFO - [2024-06-26 06:37:32,677] {dag.py:2280} INFO - Setting next_dagrun for etl_pipeline_smoking_cost to 2024-06-26 00:00:00+00:00
+[2024-06-26 06:37:32,878] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 4.261 seconds
+[2024-06-26 06:38:10,272] {scheduler_job.py:182} INFO - Started process (PID=666) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:38:11,156] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 06:38:11,324] {logging_mixin.py:104} INFO - [2024-06-26 06:38:11,323] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:38:21,325] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_pipeline_smoking_cost']) retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:38:21,430] {logging_mixin.py:104} INFO - [2024-06-26 06:38:21,428] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-06-26 06:38:21,646] {logging_mixin.py:104} INFO - [2024-06-26 06:38:21,646] {dag.py:2280} INFO - Setting next_dagrun for etl_pipeline_smoking_cost to 2024-06-26 00:00:00+00:00
+[2024-06-26 06:38:21,952] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 11.819 seconds
+[2024-06-26 06:38:52,590] {scheduler_job.py:182} INFO - Started process (PID=699) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:38:52,617] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 06:38:52,631] {logging_mixin.py:104} INFO - [2024-06-26 06:38:52,631] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:38:58,965] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_pipeline_smoking_cost']) retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:38:59,807] {logging_mixin.py:104} INFO - [2024-06-26 06:38:59,807] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-06-26 06:39:00,763] {logging_mixin.py:104} INFO - [2024-06-26 06:39:00,759] {dag.py:2280} INFO - Setting next_dagrun for etl_pipeline_smoking_cost to 2024-06-26 00:00:00+00:00
+[2024-06-26 06:39:02,109] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 9.523 seconds
+[2024-06-26 06:39:33,161] {scheduler_job.py:182} INFO - Started process (PID=730) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:39:33,176] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 06:39:33,181] {logging_mixin.py:104} INFO - [2024-06-26 06:39:33,181] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:39:36,578] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_pipeline_smoking_cost']) retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:39:36,650] {logging_mixin.py:104} INFO - [2024-06-26 06:39:36,649] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-06-26 06:39:36,712] {logging_mixin.py:104} INFO - [2024-06-26 06:39:36,712] {dag.py:2280} INFO - Setting next_dagrun for etl_pipeline_smoking_cost to 2024-06-26 00:00:00+00:00
+[2024-06-26 06:39:36,738] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 3.623 seconds
+[2024-06-26 06:40:06,968] {scheduler_job.py:182} INFO - Started process (PID=760) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:40:06,972] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 06:40:06,974] {logging_mixin.py:104} INFO - [2024-06-26 06:40:06,974] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:40:09,576] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['etl_pipeline_smoking_cost']) retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:40:10,590] {logging_mixin.py:104} INFO - [2024-06-26 06:40:10,589] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-06-26 06:40:10,994] {logging_mixin.py:104} INFO - [2024-06-26 06:40:10,979] {dag.py:2280} INFO - Setting next_dagrun for etl_pipeline_smoking_cost to 2024-06-26 00:00:00+00:00
+[2024-06-26 06:40:11,229] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 4.260 seconds
+[2024-06-26 06:40:43,322] {scheduler_job.py:182} INFO - Started process (PID=789) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:40:43,337] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 06:40:43,365] {logging_mixin.py:104} INFO - [2024-06-26 06:40:43,365] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:40:43,410] {logging_mixin.py:104} INFO - [2024-06-26 06:40:43,402] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/etl_pipeline_smoking_cost.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_pipeline_smoking_cost.py", line 42
+    op_args
+          ^
+SyntaxError: invalid syntax
+[2024-06-26 06:40:43,419] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:40:44,681] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 1.418 seconds
+[2024-06-26 06:41:32,397] {scheduler_job.py:182} INFO - Started process (PID=816) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:41:32,424] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 06:41:32,431] {logging_mixin.py:104} INFO - [2024-06-26 06:41:32,430] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:41:32,510] {logging_mixin.py:104} INFO - [2024-06-26 06:41:32,483] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/etl_pipeline_smoking_cost.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_pipeline_smoking_cost.py", line 42
+    op_args=['{{ task_instance}}']
+          ^
+SyntaxError: invalid syntax
+[2024-06-26 06:41:32,525] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:41:32,688] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 0.328 seconds
+[2024-06-26 06:42:03,013] {scheduler_job.py:182} INFO - Started process (PID=843) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:42:03,034] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 06:42:03,046] {logging_mixin.py:104} INFO - [2024-06-26 06:42:03,045] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:42:03,152] {logging_mixin.py:104} INFO - [2024-06-26 06:42:03,134] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/etl_pipeline_smoking_cost.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_pipeline_smoking_cost.py", line 42
+    op_args=['{{ task_instance.xcom-pull()}}']
+          ^
+SyntaxError: invalid syntax
+[2024-06-26 06:42:03,167] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:42:03,603] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 0.630 seconds
+[2024-06-26 06:42:34,765] {scheduler_job.py:182} INFO - Started process (PID=871) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:42:34,792] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 06:42:34,803] {logging_mixin.py:104} INFO - [2024-06-26 06:42:34,802] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:42:35,018] {logging_mixin.py:104} INFO - [2024-06-26 06:42:34,898] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/etl_pipeline_smoking_cost.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_pipeline_smoking_cost.py", line 42
+    op_args=['{{ task_instance.xcom-pull(task_ids="extract_task) }}']
+          ^
+SyntaxError: invalid syntax
+[2024-06-26 06:42:35,058] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:42:35,728] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 1.005 seconds
+[2024-06-26 06:43:23,797] {scheduler_job.py:182} INFO - Started process (PID=886) to work on /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:43:23,861] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/etl_pipeline_smoking_cost.py for tasks to queue
+[2024-06-26 06:43:23,893] {logging_mixin.py:104} INFO - [2024-06-26 06:43:23,893] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:43:25,710] {logging_mixin.py:104} INFO - [2024-06-26 06:43:25,324] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/etl_pipeline_smoking_cost.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_pipeline_smoking_cost.py", line 42
+    op_args=['{{ task_instance.xcom-pull(task_ids="extract_task) }}']
+          ^
+SyntaxError: invalid syntax
+[2024-06-26 06:43:25,773] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_smoking_cost.py
+[2024-06-26 06:43:28,545] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/etl_pipeline_smoking_cost.py took 4.769 seconds
