@@ -24,7 +24,7 @@ def extract_task(url):
                 logging.error('Failed to extract data')
                 return None
 
-# data = extract_task('https://data.cdc.gov/resource/ezab-8sq5.json')
+data = extract_task('https://data.cdc.gov/resource/ezab-8sq5.json')
 
 def transform_task(data):
         try:
@@ -36,7 +36,14 @@ def transform_task(data):
                 logging.error('Failed to transform data')
                 return None
 
-# print(transform_task(data))
+        # Configure pandas to display all rows and columns
+        pd.set_option('display.max_rows', None)
+        pd.set_option('display.max_columns', None)
+        pd.set_option('display.width', None)
+        pd.set_option('display.max_colwidth', None)
+
+
+print(transform_task(data))
 
 def load_task(data):
         pass
